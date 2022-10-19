@@ -1,8 +1,13 @@
+import TodoFeature from 'features/Todo';
 import React from 'react';
 import './App.css';
 
 function App() {
-  return <div className="app">Learn ReactJS - Easy Frontend</div>;
+  return (
+    <div className="app">
+      <TodoFeature />
+    </div>
+  );
 }
 
 export default App;
